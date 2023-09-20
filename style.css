@@ -1,0 +1,47 @@
+body {
+  font-family: Comic Sans MS;
+}
+
+.main-color {
+  background-color: #b13126 !important;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(image/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.icon-services {
+  width: 90px;
+  height: 90px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.content-subscribe {
+  background-color: #e3fdfd;
+}
+
+.content-footer {
+  background-color: #71c9ce;
+}
+
+.produk-banner {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(image/tbk.jpg);
+  background-size: cover;
+  background-position: center;
+}
